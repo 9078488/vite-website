@@ -6,6 +6,8 @@ import SignIn from "./routes/SignIn";
 import SignUp from './routes/SignUp';
 import Profile from "./routes/Profile";
 import Home from './routes/Home';
+import Solidity from "./routes/Solidity";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
             <Route index element={<Home />}></Route>
             <Route path="/crypto-private-info" element={<CryptoPrivateInfo />}></Route>
             <Route path="/profile" element={<Profile />}></Route>
+            <Route path="/solidity" element={<Solidity />}></Route>
           </Route>
           <Route path="/signin" element={<SignIn />}></Route>
           <Route path="/signup" element={<SignUp />}></Route>
